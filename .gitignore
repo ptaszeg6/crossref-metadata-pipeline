@@ -1,0 +1,17 @@
+# created by virtualenv automatically
+.venv/etc
+.venv/
+__pycache__/
+.idea/
+data/
+.env
+*.pyc
+/notebooks/
+src/crossref_pipeline/bronze_old.py
+src/crossref_pipeline/bronze_old2.py
+data/*
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/staging/.gitkeep
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
