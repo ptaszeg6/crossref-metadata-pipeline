@@ -21,10 +21,8 @@ Raw JSON -> Staging JSON -> Bronze Parquet -> Silver Parquet -> Analytics querie
 
 ```bash
 python -m venv .venv
-```
-
-```bash
-pip install -r requirements.txt
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
 ## Run
