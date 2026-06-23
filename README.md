@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ## Run
 
 ```bash
-python scripts/run_ingestion.py
+python run_pipeline.py
 ```
 Generated data is written to `data/`, which is ignored by Git.
 
