@@ -7,7 +7,7 @@ from crossref_pipeline.silver import create_silver_tables
 from crossref_pipeline.quality.checks import create_silver_validation_report
 from crossref_pipeline.storage.minio_client import upload_raw_file_to_minio
 import logging
-from crossref_pipeline.utils.logging_utils import log_stage
+
 
 logger = logging.getLogger(__name__)
 
