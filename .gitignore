@@ -3,10 +3,10 @@
 .venv/
 __pycache__/
 .idea/
-data/
+#data/
 .env
 *.pyc
-/notebooks/
+#/notebooks/
 crossref_pipeline/bronze_old.py
 crossref_pipeline/bronze_old2.py
 data/*
